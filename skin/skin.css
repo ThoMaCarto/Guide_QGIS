@@ -1,0 +1,69 @@
+/** SKIN OVERLOADS ************************************************************/
+
+:root{
+	--fontSize: 1em;
+	--fontStyle: sans-serif;
+  --rootBG: #ffffff;
+  --contentBG: #ffffff;
+	--contentFG: #4d4d4d;
+  --headerBG: #3580c3;
+  --headerFG: #ffffff;
+  --maxWidth: 1200px;
+	--accentColor:#3580c3;
+	--accentColorAlpha:#3580c33d;
+	--accentDarkFG: #ffffff;
+	--accentLight: #abadbf;
+  --accentLightAlpha: #abadbf3d;
+  --menuWidth: 200px;
+  --menuBG: #dadf64;
+  --menuFG: #000000;
+  --blockWarning: #3580c3;
+  --blockWarningLight: #3580c317;
+  --blockAdvice: #3580c3;
+  --blockTip: #3580c3;
+  --blockExample: #2f624b;
+  --blockNote: #3580c3;
+  --blockNoteLight: #3580c326;
+  --blockLegal: #3580c3;
+  --blockComplement: #000002;
+  --blockComplementLight: #00000221;
+  --footerBG: #3580c3;
+  --footerFG: #ffffff;
+}
+#outline li > .mnu_sel_yes {
+  background-color: var(--accentDarkFG);
+  color: var(--contentFG);
+  border-right: 2px solid var(--accentColor);
+}
+.tooltip_ti{
+  background-color: var(--menuBG);
+}
+
+.headCo_ti{
+  background-color: ;
+  color: var (--contentFG);
+}
+
+.block_ti {
+  color: var(--accentColor);
+  font-weight:bold;
+}
+#stack, #stack a{
+  color: var(--contentBG);
+}
+
+élément {
+}
+.tplPage #menu li.outRoot a, .tplTools #menu li.mainSel_yes a
+.tplPage #menu li.outRoot a,.tplTools #menu li.mainSel_yes a
+.tplPage #menu li.outRoot a,.tplTools #menu li.mainSel_yes a{
+  color: var(--headerFG);
+  border-bottom: 5px solid var(--headerFG);
+
+}
+
+@media (max-width: 1200px){
+	a.btnAbout{
+		right:0;
+	}
+}
